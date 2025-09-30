@@ -26,3 +26,19 @@ To run the app on your local machine, follow these steps:
    ```bash
    streamlit run streamlit_app.py
    ```
+## Usage
+
+1. Upload a photo of ingredients (optional).
+   
+3. Let the app detect the ingredients automatically, or you can revise the list manually.
+   
+5. Customize your recommendations by adjusting taste preferences.
+   
+7. Browse the recommended Chinese dishes.
+
+## Future Improvements
+This is the first version of the app. Future updates may include:
+- Improved ingredient recognition accuracy.
+- More personalized recommendations.
+- Expanded dataset of Chinese dishes.
+- Additional features for user interaction and customization.
