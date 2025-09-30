@@ -1,19 +1,28 @@
-# 🎈 Blank app template
+# Cuisine App
 
-A simple Streamlit app template for you to modify!
+Cuisine App is a simple application that recommends Chinese cuisine based on the ingredients in your photo. It provides detailed information about the dishes, including finished product photos, gradients, taste, and cooking steps. You can also personalize your recommendations based on taste preferences.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Features
 
-### How to run it on your own machine
+- Detect ingredients in your photo using **SAM2 + CLIP_CN_VIT_b_16** model.
+- Recommend Chinese dishes from a large dataset.
+- Show dish details: finished photo, gradient, taste, and cooking steps.
+- Personalized recommendations based on taste preferences.
 
-1. Install the requirements
+## Installation
 
+To run the app on your local machine, follow these steps:
+
+1. **Clone the repository**  
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-folder>
    ```
-   $ pip install -r requirements.txt
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
    ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
+3. **Run the app**
+   ```bash
+   streamlit run streamlit_app.py
    ```
