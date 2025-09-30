@@ -1,4 +1,4 @@
-# Cuisine App
+# 🍚 Cuisine App
 
 Cuisine App is a simple application that recommends Chinese cuisine based on the ingredients in your photo. It provides detailed information about the dishes, including finished product photos, gradients, taste, and cooking steps. You can also personalize your recommendations based on taste preferences.
 
